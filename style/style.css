@@ -1,0 +1,55 @@
+*::before,*::after,*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+html{
+    scroll-behavior: smooth;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+body[id*="home"]{
+    height: fit-content;
+    width: 100%;
+    overflow-x: hidden;
+    
+}
+#cafetaria-home header{
+    width: 100%;
+    height: fit-content;
+    padding:5.5px 15.5px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#cafetaria-home header > article{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5px;
+    padding: 2px;
+}  
+#cafetaria-home header > article ul{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 0.5px;
+    padding: 2px;
+    list-style: none;
+}
+#cafetaria-home header > article ul li{
+    font-size: 11px;
+}  
+#cafetaria-home header > nav ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5px;
+    padding: 2px;
+    list-style: none;
+}
+#cafetaria-home header > nav a{
+    text-decoration: none;
+}
+#cafetaria-home header > nav{
+   width: 50%;
+}
