@@ -1,142 +1,262 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Venha visitar o nosso café, a cada chavena tornamos o seu dia melhor">
-    <meta name="locale" content="AO">
-    <link rel="stylesheet" href="style/style.css">
-    <title>Document</title>
-</head>
-<body id="cafetaria-home">
+
+    <meta name="description" content="Visite o Café Horizonte. Café de qualidade, pequenos-almoços frescos e um espaço acolhedor em Luanda.">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Café Horizonte">
+    <meta property="og:description" content="A manhã tem outro sabor. Descubra o nosso café.">
+
+    <title>Café Horizonte | A manhã tem outro sabor</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
     
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body id="cafetaria-home">
+
+
+    <div class="topbar">
+        <span>ABERTO TODOS OS DIAS</span>
+        <span>|</span>
+        <span>07:00 - 19:30</span>
+        <span>|</span>
+        <span>LUANDA</span>
+    </div>
+
+
     <header>
-        <article>
-            <h1>Café Horizonte</h1>
-            
-            <ul>
-                <li>Café</li>
-                <li>Pausa</li>
-                <li>Encontro</li>
-            </ul>
-            
+
+        <article class="marca">
+            <h1>
+                <i class="fa-solid fa-mug-saucer"></i>
+                Café Horizonte
+            </h1>
+
+            <p>CAFÉ · PAUSA · ENCONTRO</p>
         </article>
 
-        <nav>
+        <nav aria-label="Navegação principal">
             <ul>
+                <li><a href="#escolhas">Menu</a></li>
+                <li><a href="#historia">A nossa história</a></li>
+                <li><a href="#visita">Visita-nos</a></li>
                 <li>
-                    <a href="">Menu</a>
-                </li>
-                <li>
-                    <a href="">A nossa história</a>
-                </li>
-                <li>
-                    <a href="">Visita-nos</a>
-                </li>
-                <li>
-                    <a href="">Encomendar</a>
+                    <a href="#visita" class="btn-nav">ENCOMENDAR</a>
                 </li>
             </ul>
         </nav>
 
     </header>
-    
+
     <main>
+
+        <!-- HERO -->
         <section id="Hero-café">
-            <article>
-                <p>CAFÉ DE ORIGEM. FEITO COM CUIDADO</p>
-            </article>
 
-            <article id="Hero-child-main">
-                <h1>A manhã tem outro sabor.</h1>
-                <p>Café preparado na hora, pequenos almoços frescos e um espaço tranquillo para começares bem o dia</p>
+            <div class="hero-texto">
 
-                <nav>
-                    <a href="">DESCOBRIR O MENU</a>
-                    <a href="">Como chegar</a>
+                <p class="etiqueta">
+                    <i class="fa-solid fa-circle"></i>
+                    CAFÉ DE ORIGEM · FEITO COM CUIDADO
+                </p>
+
+                <h2>A manhã tem<br>outro sabor.</h2>
+
+                <p class="descricao">
+                    Café preparado na hora, pequenos-almoços frescos
+                    e um espaço tranquilo para começares bem o dia.
+                </p>
+
+                <nav class="hero-links">
+                    <a href="#escolhas" class="btn-principal">
+                        DESCOBRIR O MENU
+                    </a>
+
+                    <a href="#visita" class="btn-secundario">
+                        Como chegar →
+                    </a>
                 </nav>
 
-            </article>
+            </div>
+
+            <div class="hero-imagem">
+
+                <!-- <img
+                    src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1000&q=85"
+                    alt="Chávena de café acabado de preparar"
+                > -->
+
+            </div>
 
         </section>
-    
+
+        
         <section id="passos">
-            <div>
-                <h2>Grãos selecionados</h2>
-                <p>Sabor e qualidade em cada chávena</p>
-            </div>
-            <div>
-                <h2>Preparados</h2>
-                <p>Café fresco. Feito na hora</p>
-            </div>
-            <div>
-                <h2>Um espaço acolhedor</h2>
-                <p>Uma pausa boa no seu dia</p>
-            </div>
-
-        </section>
-
-        <section id="secao-escolhas">
-            <h2>ESCOLHAS DA CASA</h2>
 
             <article>
-                <h3>Feito para saborear</h3>
-                <p>VER MENU COMPLETO</p>
-
+                <span>01</span>
+                <div>
+                    <h2>Grãos selecionados</h2>
+                    <p>Sabor e qualidade em cada chávena.</p>
+                </div>
             </article>
-            
-            <section id="escolhas">
-                <div class="escolhas-element">
-                    <i></i>
-                    <article>
-                        <h3></h3>
-                        <p></p>
-                        <p></p>
-                    </article>
+
+            <article>
+                <span>02</span>
+                <div>
+                    <h2>Preparado na hora</h2>
+                    <p>Café fresco, feito para ti.</p>
                 </div>
-                <div class="escolhas-element">
-                    <i></i>
-                    <article>
-                        <h3></h3>
-                        <p></p>
-                        <p></p>
-                    </article>
+            </article>
+
+            <article>
+                <span>03</span>
+                <div>
+                    <h2>Um espaço acolhedor</h2>
+                    <p>Uma pausa boa no teu dia.</p>
                 </div>
-                <div class="escolhas-element">
-                    <i></i>
-                    <article>
-                        <h3></h3>
-                        <p></p>
-                        <p></p>
-                    </article>
-                </div>
-                
-            </section>
+            </article>
+
         </section>
+
+        <!-- HISTÓRIA -->
+        <section id="historia">
+
+            <p class="subtitulo">SOBRE O CAFÉ HORIZONTE</p>
+
+            <h2>Mais do que café, um momento para ti.</h2>
+
+            <p>
+                Acreditamos que os melhores momentos começam com
+                pequenos detalhes. Preparamos cada chávena com
+                cuidado para tornar o teu dia especial.
+            </p>
+
+        </section>
+
+        
+        <section id="secao-escolhas">
+
+            <p class="subtitulo">ESCOLHAS DA CASA</p>
+
+            <div class="titulo-escolhas">
+                <h2>Feito para saborear</h2>
+
+                <a href="#escolhas">
+                    VER MENU COMPLETO →
+                </a>
+            </div>
+
+            <section id="escolhas">
+
+                <article class="escolhas-element">
+
+                    <span class="produto-icon">
+                        <img src="assets/img/cafe.jfif">
+                    </span>
+
+                    <div>
+                        <h3>Café expresso</h3>
+                        <p>Intenso e equilibrado.</p>
+                        <strong>1 200 Kz</strong>
+                    </div>
+
+                </article>
+
+                <article class="escolhas-element">
+
+                    <span class="produto-icon">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2PWbKjpuazHYVO1FNkzNBVGV6NlJU7OaWWVLc3xF-rQ&s=10">
+                    </span>
+
+                    <div>
+                        <h3>Tosta Horizonte</h3>
+                        <p>Pão artesanal e ervas frescas.</p>
+                        <strong>2 500 Kz</strong>
+                    </div>
+
+                </article>
+
+                <article class="escolhas-element">
+
+                    <span class="produto-icon">
+                        <img src=https://images.unsplash.com/photo-1455731248858-078f60393874?auto=format&fit=crop&w=900&q=85"></i>
+                    </span>
+
+                    <div>
+                        <h3>Bolo de canela</h3>
+                        <p>Macio, aromático, feito hoje.</p>
+                        <strong>1 800 Kz</strong>
+                    </div>
+
+                </article>
+
+            </section>
+
+        </section>
+
     </main>
-    
-    <footer>
-        <h4>Encontra o teu lugar favorito</h4>
-        <p>Morada</p>
-      <section>
-        <nav>
 
-            <a href="">
-                <i></i>
-            </a>
-            <a href="">
-                <i></i>
-            </a>
-            <a href="">
-                <i></i>
-            </a>
-        </nav>
+    <!-- RODAPÉ -->
+    <footer id="visita">
 
-        <a href="">FALAR NO WHATSAPP</a>
+        <article>
+            <div class="footer-info">
 
-      </section>
-      
-      
+            <h2>Encontra o teu novo lugar favorito.</h2>
+
+            <p>
+               A definir
+            </p>
+
+            <div class="redes-sociais">
+
+                <a href="#" aria-label="Instagram">
+                  <i class="fa-brands fa-instagram"></i>  
+                </a>
+
+                <span></span>
+
+                <a href="#" aria-label="Telefone">
+                    <i class="fa-solid fa-phone"></i>
+                </a>
+
+                <span></span>
+
+                <a href="mailto:contacto@cafehorizonte.ao">
+                   <i class="fa-solid fa-envelope"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+        <a
+            href="https://wa.me/244900000000"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn-whatsapp"
+        >
+            <i class="fa-brands fa-whatsapp"></i>
+            FALAR NO WHATSAPP
+        </a>
+     
+        </article>
+
+        <div style="color: var(--cor-branco- quente);"   width="100%">
+            <p style="font-size:12px; text-align:center; padding:5px 2px;"></p>
+        </div>
+        
     </footer>
+  <script src="script/script.js" defer></script>
 </body>
 </html>
